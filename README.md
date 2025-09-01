@@ -51,7 +51,7 @@ Get-ChildItem -Path . -Recurse -File | Unblock-File
 .\setup_all.ps1
 ```
 
-***==Note:== after executing `setup_all.ps1` download `mcp_server.py` from releases and place it in `%USERPROFILE%\volatility-mcp-server\src` folder (replace the original file with this)***
+***Note: after executing `setup_all.ps1` download `mcp_server.py` from releases and place it in `%USERPROFILE%\volatility-mcp-server\src` folder (replace the original file with this)***
 
 ***Link to download***: https://github.com/0xOb5k-J/vol3-mcp-win/releases/download/mcp_server_1.0.py/mcp_server.py
 ## Configuration
