@@ -56,9 +56,7 @@ Get-ChildItem -Path . -Recurse -File | Unblock-File
 ***Link to download***: https://github.com/0xOb5k-J/vol3-mcp-win/releases/download/mcp_server_1.0.py/mcp_server.py
 ## Configuration
 
-### Windows MCP Configuration
-
-Location: `%USERPROFILE%\volatility-mcp-server\config\mcp_windows.json`
+### MCP Configuration for github co-pilot VS-code extension:
 
 ```json
 {
@@ -66,15 +64,33 @@ Location: `%USERPROFILE%\volatility-mcp-server\config\mcp_windows.json`
     "volatility3-mcp": {
       "command": "python",
       "args": [
-        "C:\\Users\\USERNAME\\volatility-mcp-server\\launcher.py"
+        "C:\\Users\\<USERNAME>\\volatility-mcp-server\\launcher.py"
       ],
       "type": "stdio",
       "env": {
-        "PYTHONPATH": "C:\\Users\\USERNAME\\volatility-mcp-server\\volatility3"
+        "PYTHONPATH": "C:\\Users\\<USERNAME>\\volatility-mcp-server\\volatility3"
       }
     }
   },
   "inputs": []
+}
+```
+
+### MCP Configuration for Claude Desktop:
+
+```json
+{
+  "mcpServers": {
+    "volatility3-mcp": {
+      "command": "python",
+      "args": [
+        "C:\\Users\\<USERNAME>\\volatility-mcp-server\\launcher.py"
+      ],
+      "env": {
+        "PYTHONPATH": "C:\\Users\\<USERNAME>\\volatility-mcp-server\\volatility3"
+      }
+    }
+  }
 }
 ```
 
@@ -92,7 +108,13 @@ python launcher.py
 ### Using with GitHub Copilot (VSCode) as MCP Client
 
 1. Copy the config to your MCP client configuration
-2. Restart VSCode
+2. Start the mcp-server from the config file os VSCode itself
+3. The Volatility3 tools will be available in GitHub Copilot
+
+### Using with Claude desktop as MCP Client
+
+1. Copy the config to your MCP client configuration
+2. Restart claude desktop
 3. The Volatility3 tools will be available in GitHub Copilot
 
 ## Directory Structure
@@ -137,4 +159,4 @@ volatility-mcp-server/
 
 ## License
 
-MIT License
+[MIT License]
