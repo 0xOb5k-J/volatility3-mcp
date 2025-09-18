@@ -3,7 +3,9 @@
 A Model Context Protocol (MCP) server that integrates Volatility3 memory forensics framework with LLM-based tools.
 
 # Demo:
-https://github.com/user-attachments/assets/60936f5b-9792-45e3-8d74-9379db8b97a9
+https://github.com/user-attachments/assets/f320bfbc-6737-4ce1-aefa-0d82213dd4dd
+
+
 # Tested On:
 
 - Windows 11 24h2
