@@ -161,4 +161,4 @@ volatility-mcp-server/
 
 ## License
 
-[MIT License]
+[[MIT License]](https://github.com/0xOb5k-J/vol3-mcp-win/blob/main/LICENSE)
