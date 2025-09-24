@@ -11,8 +11,11 @@ https://github.com/user-attachments/assets/f320bfbc-6737-4ce1-aefa-0d82213dd4dd
 - Windows 11 24h2
 - Python 3.12.0
 - VS Code
+- Windows mem profiles
+
 ## Features
 
+- **Goal-Oriented**: First understands the goal and then proceeds
 - **Multi-OS Support**: Automatically detects and adapts to Windows, Linux, and Mac memory images
 - **Intelligent Plugin Discovery**: Dynamically discovers available plugins based on loaded image
 - **Error Analysis**: Automatic error analysis with solutions and alternatives
