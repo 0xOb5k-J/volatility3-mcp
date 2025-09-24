@@ -149,10 +149,6 @@ volatility-mcp-server/
 - Verify virtual environment exists
 - Check logs in `logs/mcp_server.log`
 
-### Memory image not loading
-- Place images in `memory_images/` directory or you can just directly specify the absolute path in the chat itself.
-- Check file permissions
-- Verify image format compatibility
 
 ### Plugin execution fails
 - Use `analyze_error()` tool for automatic diagnosis
