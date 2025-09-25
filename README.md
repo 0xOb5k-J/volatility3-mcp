@@ -34,7 +34,9 @@ https://github.com/user-attachments/assets/f320bfbc-6737-4ce1-aefa-0d82213dd4dd
 | `analyze_error` | Analyze errors and provide solutions |
 | `suggest_plugins` | Get plugin suggestions based on analysis goal |
 | `batch_execute` | Execute multiple plugins in sequence |
-| `generate_documentation` | Generate comprehensive analysis documentation |
+| `generate_documentation` | Create a new documentation file that AI can populate with content |
+| `create_documentation_content` | AI writes content to documentation file - full creative control |
+| `get_analysis_context` | Get complete analysis context for AI documentation |
 
 ## Installation
 
