@@ -49,7 +49,7 @@ cd volatility3-mcp
 ```
 
 ```bash
-.\setup_all.py
+python3 setup_all.py
 ```
 
 ***Note: after executing `setup_all.ps1` download `mcp_server.py` from releases and place it in `%USERPROFILE%\volatility-mcp-server\src` folder (replace the original file with this)***
