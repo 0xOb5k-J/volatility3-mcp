@@ -54,7 +54,7 @@ cd volatility3-mcp
 python3 setup_all.py
 ```
 
-***Note: after executing `setup_all.ps1` download `mcp_server.py` from releases and place it in `%USERPROFILE%\volatility-mcp-server\src` folder (replace the original file with this)***
+***Note: after executing `setup_all.py` download `mcp_server.py` from releases and place it in `%USERPROFILE%\volatility-mcp-server\src` folder (replace the original file with this)***
 
 ***Link to download***: https://github.com/0xOb5k-J/volatility3-mcp/releases/download/mcp_server/mcp_server.py
 ## Configuration
